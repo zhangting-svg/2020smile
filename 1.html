@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/p3.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+
+<script src="js/common.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/sha256.js"></script>
+
+
+
+<script src="js/cecgw_js/echarts.min.js" ></script>
+<!-- InstanceBeginEditable name="head" --><title>Untitled Document</title><!-- InstanceEndEditable -->
+<style type="text/css">
+	body, td, th, div {
+    color: #6DCFF6;
+    font-family: "Microsoft YaHei";
+}
+body, div, span, li {
+    font-size: 14px;
+}
+.d_left_right_01 {
+     width: 400px; 
+}
+.title_mx {
+    text-align: left;
+    border: 1px solid #5355B3;
+    background-image: url(images/middle (1).png);
+    background-repeat: repeat;
+    
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: #3A5E81;
+    border-bottom-color: #3A5E81;
+    border-left-color: #3A5E81;
+    text-align: center;
+}
+.d_left_right_01 {
+    width: 400px; 
+}
+.title_t1, .title_t3, .title_t3b, .title_t3c, .title_t4 {
+    background-repeat: no-repeat;
+    height: 32px;
+}
+.title_t1 {
+    background-image: url(images/ti01.png);
+    width: 113px;
+}
+.title_t2 {
+    background-repeat: repeat-x;
+    background-image: url(images/ti02.png);
+}
+.title_t3b {
+    background-image: url(images/ti03b.png);
+    width: 171px;
+    color: #A6C1FB;
+}
+.title_t4 {
+    background-image: url(images/ti04.png);
+    width: 113px;
+}
+
+
+.navigation-up .navigation-v3 li h2 a{
+	padding: 0 20px;
+	margin-top: 47px;
+}
+.b_l22{
+	text-align: center;
+	font-size: 40px;
+	padding: 8px;
+}
+/*object{
+	transform:scale(2);
+}*/
+</style>
+</head>
+<body style="background-size: 100% 100%;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="navbg">
+	  <tr>
+	    <td class="b_l22 f22">海淀区网络安全监测预警平台</td>
+	  </tr>
+	</table>
+	
+	<table width="100%" border="1" cellspacing="8" cellpadding="0">
+	  <tr>
+	    <td valign="top" background="#" class=" d_left_right_01"><!-- InstanceBeginEditable name="l" -->
+				
+	<!--1-->
+		        <div class="title_mx content01 title_mx00"  style="height:305px;">
+		        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		                <tr>
+		                    <td class="title_t1"></td>
+		                    <td class="title_t2"><img src="images/kong.gif" /></td>
+		                    <td align="center" class="title_t3b" id="TITLE_1002_001">资产态势</td>
+		                    <td class="title_t2"><img src="images/kong.gif" /></td>
+		                    <td class="title_t4"></td>
+		                </tr>
+		            </table>
+	            	<div id="dom1" style="width: 100%;height: 250px;margin-top: 20px;"></div>
+	            	
+	            
+	
+		        </div>
+		        
+	<!--2-->	      
+		       <br />
+		        <div class="title_mx content01 title_mx00"  style="height:305px;">
+		        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                <tr>
+	                    <td class="title_t1"></td>
+	                    <td class="title_t2"><img src="images/kong.gif" /></td>
+	                    <td align="center" class="title_t3b" id="TITLE_1002_001">攻击态势</td>
+	                    <td class="title_t2"><img src="images/kong.gif" /></td>
+	                    <td class="title_t4"></td>
+	                </tr>
+		            </table>
+		            <div id="dom2" style="width: 100%;height: 250px;margin-top: 20px;"></div>
+		        </div>
+		        
+			 
+	<!--3-->					
+						<br />
+						<div class="title_mx content01 title_mx00"  style="height:305px;">
+				        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			                <tr>
+			                    <td class="title_t1"></td>
+			                    <td class="title_t2"><img src="images/kong.gif" /></td>
+			                    <td align="center" class="title_t3b" id="TITLE_1002_001">应用安全</td>
+			                    <td class="title_t2"><img src="images/kong.gif" /></td>
+			                    <td class="title_t4"></td>
+			                </tr>
+			            </table>
+	            <div id="dom3" style="width: 100%;height: 250px;margin-top: 20px;"></div>
+				
+				<!-- InstanceEndEditable -->
+	    </td>
+	    <td rowspan="2" valign="top"><!-- InstanceBeginEditable name="m" -->
+	    	<div class=" title_mx content01 title_mx00"  style="height:400px;">
+		        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		                <tr>
+		                    <td class="title_t1"></td>
+		                    <td class="title_t2"><img src="images/kong.gif" /></td>
+		                    <td align="center" class="title_t3b" id="TITLE_1002_001"></td>
+		                    <td class="title_t2"><img src="images/kong.gif" /></td>
+		                    <td class="title_t4"></td>
+		                </tr>
+	            	</table>
+	            	<object id="svg" type="image/svg+xml" data="images/map1860x939.svg" width="100%" ></object>
+			</div>
+	    	
+	<!--7-->
+	    	<div class=" title_mx content01 title_mx00"  style="height:420px;margin-top: 50px;">
+		        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		                <tr>
+		                    <td class="title_t1"></td>
+		                    <td class="title_t2"><img src="images/kong.gif" /></td>
+		                    <td align="center" class="title_t3b" id="TITLE_1002_001">安全事件</td>
+		                    <td class="title_t2"><img src="images/kong.gif" /></td>
+		                    <td class="title_t4"></td>
+		                </tr>
+	           		</table>
+	            	<div id="dom7" style="width: 100%;height: 250px;margin-top: 20px;"></div>
+				 	<div align="center" style="font-size: 15px;margin-top: 80px;">安全事件总数：<span class="f26" id="totalCount">0</span></div>
+			</div>
+					
+			<!--菜单-->
+				<div class="navigation-up">
+					<div class="navigation-inner">
+						<div class="navigation-v3">
+							<ul>
+								 <li class="nav-up-selected-inpage" _t_nav="menu01">
+								  	<h2><a href="1.html"><img src="images/ico48-01.png" border="0" /></a></h2>
+								 </li>
+								 <li class="" _t_nav="menu02">
+								  	<h2><a href="1.html"><img src="images/ico48-02.png" border="0" /></a></h2>
+								 </li>
+								 <li class="" _t_nav="menu03">
+								  	<h2><a href="1.html"><img src="images/ico48-03.png" border="0" /></a></h2>
+								 </li>
+								 <li class="" _t_nav="menu04">
+								  	<h2><a href="1.html"><img src="images/ico48-04.png" border="0" /></a></h2>
+								 </li>
+								 <li class="" _t_nav="menu05">
+								  	<h2><a href="1.html"><img src="images/ico48-05.png" border="0" /></a></h2>
+								 </li>
+								 <li _t_nav="menu06">
+								  	<h2><a href="1.html"><img src="images/ico48-06.png" border="0" /></a></h2>
+								 </li>
+								 <li class="" _t_nav="menu07">
+								  	<h2><a href="1.html"><img src="images/ico48-07.png" border="0" /></a></h2>
+							 	 </li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+				<!--菜单结束-->
+			
+	    		
+	    </td><!-- InstanceEndEditable -->
+	    <td valign="top" class="content_lr d_left_right_01"><!-- InstanceBeginEditable name="r" -->
+	   
+	<!--4-->						   
+				 <div class="title_mx content01 title_mx00"  style="height:305px;">
+		        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                <tr>
+	                    <td class="title_t1"></td>
+	                    <td class="title_t2"><img src="images/kong.gif" /></td>
+	                    <td align="center" class="title_t3b" id="TITLE_1002_001">风险态势</td>
+	                    <td class="title_t2"><img src="images/kong.gif" /></td>
+	                    <td class="title_t4"></td>
+	                </tr>
+	            </table>
+	            <div id="dom4" style="width: 100%;height: 250px;margin-top: 20px;"></div>
+				</div>
+				
+	<!--5-->           
+	            <br />
+				<div class="title_mx content01 title_mx00"  style="height:305px;">
+		        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                <tr>
+	                    <td class="title_t1"></td>
+	                    <td class="title_t2"><img src="images/kong.gif" /></td>
+	                    <td align="center" class="title_t3b" id="TITLE_1002_001">漏洞态势</td>
+	                    <td class="title_t2"><img src="images/kong.gif" /></td>
+	                    <td class="title_t4"></td>
+	                </tr>
+	            </table>
+	            <div id="dom5" style="width: 100%;height: 250px;margin-top: 20px;"></div>
+				</div>	
+					<!--<div class="f18">安全事件&gt;&gt;</div>-->
+						   <!-- 安全事件总数：<span class="f26">123456</span>-->
+						  <!--  <br /> <br />-->
+						 <!-- <div class="b_6" id="dom6"  style="width: 330px;height:200px;"></div>  -->    
+						     <!-- https://echarts.baidu.com/examples/editor.html?c=pie-roseType-->
+							<!--<br />-->
+							<!--<div class="f12">
+									    <div align="center" style="font-size: 15px;">各类型安全事件数量及占比</div>
+							</div>-->
+	<!--6-->						
+							<br />
+					<div class=" title_mx content01 title_mx00"  style="height:330px;">
+		        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                <tr>
+	                    <td class="title_t1"></td>
+	                    <td class="title_t2"><img src="images/kong.gif" /></td>
+	                    <td align="center" class="title_t3b" id="TITLE_1002_001">安全事件</td>
+	                    <td class="title_t2"><img src="images/kong.gif" /></td>
+	                    <td class="title_t4"></td>
+	                </tr>
+	            </table>
+	            <div id="dom6" style="width: 100%;height: 250px;margin-top: 20px;"></div>
+				 <div align="center" style="font-size: 15px;">各类型安全事件数量及占比</div>
+					</div>			
+							
+							
+	<!--7-->								
+							<!--<div class="b_6" id="dom7"  style="width: 330px;height:200px;"></div>-->		
+								   <!-- https://echarts.baidu.com/examples/editor.html?c=line-gradient-->
+							<!--<br />
+							<div class="f12">
+						      <div align="center" style="font-size: 15px;">安全事件数量按时间的发生趋势</div>
+						  </div>-->
+				
+					<!-- InstanceEndEditable -->
+	    </td>
+	  </tr>
+	</table>
+<script type="text/javascript" src="js/style.js"></script>
+<script type="text/javascript">
+
+	///是否是生产环境：true-是，false -不是
+	var IS_PRODUCE;//4，修改为true
+	//生产地址
+	var PRODUCE_URL;
+	//登陆账号
+	var USERNAME;
+	//登陆密码
+	var PASSWORD;
+	//跳转查询地址
+	var ASSET_SEARCH_URL;
+	
+	//全局token
+	var token ="";
+	$(function(){
+		init();
+	    //id="_______0_Layer0_0_1_STROKES_FL_FL"统一的事件
+		var sObject = document.getElementById("svg");
+		    sObject.addEventListener("load",function() {
+		    	/*getSVGDocument()获取所引用的SVG文档的document对象*/
+		        //var svgg = sObject.getSVGDocument(); 
+		        var svgDoc = sObject.contentDocument;
+       			var svgItem = svgDoc.querySelectorAll("#_______0_Layer0_0_1_STROKES_FL_FL");
+       			/*获取path元素*/
+       			var svgItem2 = svgDoc.querySelectorAll("#_______0_Layer0_0_FILL path");
+       			/*8个IP地址*/
+       			var aaa= svgDoc.querySelectorAll("#aaa");
+       			var bbb= svgDoc.querySelectorAll("#bbb");
+
+       			var ccc= svgDoc.querySelectorAll("#ccc");
+       			var ddd= svgDoc.querySelectorAll("#ddd");
+       			var eee= svgDoc.querySelectorAll("#eee");
+       			var fff= svgDoc.querySelectorAll("#fff");
+       			var ggg= svgDoc.querySelectorAll("#ggg");
+       			for (var i=0;i<aaa.length;i++) {
+       				aaa[i].addEventListener("click", function () {
+	       				var idPro=this.getAttribute("value");
+						alertMsg(idPro);
+					})
+       			}
+       			for (var i=0;i<bbb.length;i++) {
+       				bbb[i].addEventListener("click", function () {
+	       				var idPro=this.getAttribute("value");
+						alertMsg(idPro);
+					})
+       			}
+       			for (var i=0;i<ccc.length;i++) {
+       				ccc[i].addEventListener("click", function () {
+	       				var idPro=this.getAttribute("value");
+						alertMsg(idPro);
+					})
+       			}
+       			for (var i=0;i<ddd.length;i++) {
+       				ddd[i].addEventListener("click", function () {
+	       				var idPro=this.getAttribute("value");
+						alertMsg(idPro);
+					})
+       			}
+       			for (var i=0;i<eee.length;i++) {
+       				eee[i].addEventListener("click", function () {
+	       				var idPro=this.getAttribute("value");
+						alertMsg(idPro);
+					})
+       			}
+       			for (var i=0;i<fff.length;i++) {
+       				fff[i].addEventListener("click", function () {
+	       				var idPro=this.getAttribute("value");
+						alertMsg(idPro);
+					})
+       			}
+       			for (var i=0;i<ggg.length;i++) {
+       				ggg[i].addEventListener("click", function () {
+	       				var idPro=this.getAttribute("value");
+						alertMsg(idPro);
+					})
+       			}
+       	})
+
+	  
+
+		//1， 准备一个具备高宽的 DOM 容器
+		//2，通过 echarts.init 方法初始化一个 echarts 实例
+		var myChart1 = echarts.init(document.getElementById('dom1'));
+		var myChart2 = echarts.init(document.getElementById('dom2'));
+		var myChart3 = echarts.init(document.getElementById('dom3'));
+		var myChart4 = echarts.init(document.getElementById('dom4'));
+		var myChart5 = echarts.init(document.getElementById('dom5'));
+		var myChart6 = echarts.init(document.getElementById('dom6'));
+		var myChart7 = echarts.init(document.getElementById('dom7'));
+		
+
+		 ///////////定时刷新-资产态势/////////////
+			 	refreshData1(myChart1);
+		 /*setInterval(function () {
+			 	var myChart1=echarts.init(document.getElementById('dom1'));
+			 	refreshData1(myChart1);
+		}, 1000);*/
+		///////////定时刷新-攻击态势/////////////
+			 	refreshData2(myChart2);//位置
+		 /*setInterval(function () {
+			 	var myChart2=echarts.init(document.getElementById('dom2'));
+			 	refreshData2(myChart2);
+		}, 1000);*/
+		///////////定时刷新-应用安全/////////////
+			 	refreshData3(myChart3);
+		 /*setInterval(function () {
+			 	var myChart3=echarts.init(document.getElementById('dom3'));
+			 	refreshData3(myChart3);
+		}, 1000);*/
+		///////////定时刷新-风险态势/////////////
+			 	refreshData4(myChart4);
+		 /*setInterval(function () {
+			 	var myChart4=echarts.init(document.getElementById('dom4'));
+			 	refreshData4(myChart4);
+		}, 1000);*/
+		///////////定时刷新-漏洞态势/////////////
+			 	refreshData5(myChart5);
+		 //setInterval(function () {
+		//	 	var myChart5=echarts.init(document.getElementById('dom5'));
+		//	 	refreshData5(myChart5);
+		//}, 1000);
+
+
+		refreshData6(myChart6);
+
+		///////////定时刷新-安全事件2/////////////
+			 	refreshData7(myChart7);
+		// setInterval(function () {
+		//	 	var myChart7=echarts.init(document.getElementById('dom7'));
+		//	 	refreshData7(myChart7);
+		//}, 1000);
+		//拓扑图获取数据
+		console.log(getTopologicalGraphResult());
+		
+		/*调动svg点击事件*/
+		//svgClickEvent();
+	
+	})
+
+	//模拟登陆
+	 function ajaxLogin(){
+		var sha256password=sha256(PASSWORD);
+		//认证地址
+		var sendurl="";
+		if(IS_PRODUCE==true){
+			sendurl=PRODUCE_URL+"/sap/api/token/login";
+			//token="test-2f621b3ae274a29b41e48fa3c5867884c42500c62b6dc87c513ba40a62a015dc";
+			console.log("远程调用认证token");
+			//return;
+		}else{
+			token="2f621b3ae274a29b41e48fa3c5867884c42500c62b6dc87c513ba40a62a015dc";
+			console.log("模拟认证token="+token);
+			return;
+		}
+		
+		
+		 $.ajax({
+			  type: "post",
+			  url: sendurl,
+			  async:false,
+			  dataType:"json",
+        	  data: {'username':USERNAME,'password': sha256password},
+			  success: function (res) {
+					token=res;
+			  },
+			  error:function(res){
+  				alert("调用认证接口失败");
+  				console.log("调用认证接口失败");
+			  },
+			  complete:function(res){
+				  console.log("调用认证接口完成:"+sendurl);
+			  }
+		 })
+	 
+	 }
+
+	 //弹框提示
+	function alertMsg(ip){
+	  var name=prompt("查看资产的详细情况",ip)
+	  if (name!=null && name!=""){
+	      window.open(ASSET_SEARCH_URL+"?ip="+ip);
+	    }
+	}
+
+	//初始化环境
+	function init(){
+		IS_PRODUCE=false;//4，修改为true
+		//生产地址
+		PRODUCE_URL="http://10.111.62.130:16520";
+		//登陆账号
+		USERNAME='operator';
+		//登陆密码
+		PASSWORD='pwd.1234';
+		//跳转查询地址
+		ASSET_SEARCH_URL="http://10.111.62.130:16520/sap/asset/search";
+	}
+</script>
+</body>
+<!-- InstanceEnd --></html>

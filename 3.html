@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/t_link.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/cecgw_js/charts_set.js"></script>
+<script src="js/cecgw_js/echarts.min.js" type="text/javascript">
+</script><!-- 此文件中的表格容器样式位于 css/echarts.css文件中 -->
+<link rel="stylesheet" type="text/css" href="css/cecgw_echarts.css" />
+<script type="text/javascript" src="js/cecgw_js/demo.js"></script>
+<script type="text/javascript" src="js/cecgw_js/world.js"></script>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="navbg">
+  <tr>
+    <td><img src="images/logo.png" /></td>
+    <td align="center"><!--菜单-->
+	<div class="navigation-up">
+		<div class="navigation-inner">
+			<div class="navigation-v3">
+			<ul>
+			 <li class="nav-up-selected-inpage" _t_nav="menu01">
+			  <h2><a href="1.html"><img src="images/ico48-01.png" border="0" /></a></h2>
+			 </li>
+			 <li class="" _t_nav="menu02">
+			  <h2><a href="1.html"><img src="images/ico48-02.png" border="0" /></a></h2>
+			 </li>
+			 <li class="" _t_nav="menu03">
+			  <h2><a href="xuniziyuan/index.html"><img src="images/ico48-03.png" border="0" /></a></h2>
+			 </li>
+			 <li class="" _t_nav="menu04">
+			  <h2><a href="1.html"><img src="images/ico48-04.png" border="0" /></a></h2>
+			 </li>
+			 <li class="" _t_nav="menu05">
+			  <h2><a href="1.html"><img src="images/ico48-05.png" border="0" /></a></h2>
+			 </li>
+			 <li _t_nav="menu06">
+			  <h2><a href="1.html"><img src="images/ico48-06.png" border="0" /></a></h2>
+			 </li>
+			 <li class="" _t_nav="menu07">
+			  <h2><a href="1.html"><img src="images/ico48-07.png" border="0" /></a></h2>
+			 </li>
+			</ul>
+			</div>
+		</div></div>	
+		<!--一级菜单结束--></td>
+    <td align="right" class="b_r22">当前用户：admin 　登录位置：北京/昌平　上次登录：2017-05-05 22:55　<a href="default.html">［退出］</a><a href="setup/index.html"><img src="images/btn01.png"  hspace="8" border="0" align="absmiddle" /></a></td>
+  </tr>
+</table>
+<div class="b_10">
+  <div class="b_l22">安全监测 &gt; 云上业务监测</div>
+</div>
+<div class="b_lr8">
+
+  <table width="100%" border="1" cellspacing="8" cellpadding="0">
+    <tr>
+      <td width="300" valign="top">
+        <span class="f12b">攻击源地理位置分析</span>
+        <div class="b_6"></div>
+	    <div id="geoposanalyse"></div>
+	  <div class="b_6"></div>
+	  <span class="f12b">被攻击业务危害程度分析</span>
+        <div class="b_6"></div>
+  
+		<div id="task_attacked"></div>
+	    <div class="b_6"></div>
+			    <div align="center" class="b_6">7日内共发生告警55555条,攻击55类	    </div>      </td>
+      <td valign="top" class="d_img b_l22 b_r22"><div align="center"><span class="f18b">态势感知</span>
+        </div>
+        <div class="b_3"></div>
+        <div id="statusfeel"></div>
+	    <div class="d_s">
+	      <table border="0" cellspacing="3" cellpadding="0">
+	        <tr>
+	          <td align="left" class="f14b">国外攻击数：</td>
+            <td align="left" class="f36"><h2 class="timer count-title f_l" id="count-number" data-to="178709012"></h2></td>
+          </tr>
+	        
+	        <tr>
+	          <td align="left"><img src="anquan/images/kong.gif" width="1" height="22" /></td>
+            <td align="left"></td>
+          </tr>
+	        <tr>
+	          <td align="left" class="f14b">国内攻击数：</td>
+            <td align="left" class="f36"><h2 class="proceter f_l" id="count-timer" data-to="847"></h2></td>
+          </tr>
+          </table>
+        </div>      </td>
+      <td width="330" valign="top">
+        <span class="f12b">攻击趋势分析</span>
+        <div class="b_3"></div>
+          <div id="attacktrend"></div>
+        <div class="b_6"></div>
+        <table width="100%" border="0" cellspacing="6" cellpadding="0">
+          <tr>
+            <td class="f12b">攻击源刻像分析</td>
+            <td align="right"><a href="#">[ 刻像 ]</a></td>
+          </tr>
+        </table>
+	    <table width="100%" cellpadding="2" cellspacing="0" class="gridtable">
+	      <tr>
+	        <td align="left">183.37.135.38</td>
+            <td align="left">美国</td>
+            <td align="left">244577</td>
+          </tr>
+	      <tr>
+	        <td align="left" class="f12b">114.139.235.135</td>
+            <td align="left" class="f12b">日本</td>
+            <td align="left" class="f12b">254</td>
+          </tr>
+	      <tr>
+	        <td align="left" class="f12b">27.19.219.166</td>
+            <td align="left" class="f12b">武汉</td>
+            <td align="left" class="f12b">2444</td>
+          </tr>
+	      <tr>
+	        <td align="left" class="f12b">61.152.255.22</td>
+            <td align="left" class="f12b">上海</td>
+            <td align="left" class="f12b">56</td>
+          </tr>
+	      <tr>
+	        <td align="left" class="f12b">112.66.18.64</td>
+            <td align="left" class="f12b">深圳</td>
+            <td align="left" class="f12b">9</td>
+          </tr>
+        </table>
+        <div class="b_6"></div>
+        <table width="100%" border="0" cellspacing="6" cellpadding="0">
+          <tr>
+            <td class="f12b">攻击源刻像分析</td>
+            <td align="right"><a href="#">[ 刻像 ] </a></td>
+          </tr>
+        </table>
+	    <table width="100%" cellpadding="2" cellspacing="0" class="gridtable">
+	      <tr>
+	        <td align="left">58.16.86.237:8080</td>
+            <td align="left">委办局</td>
+            <td align="left">244577</td>
+          </tr>
+	      <tr>
+	        <td align="left" class="f12b">78.116.186.237:8080</td>
+            <td align="left" class="f12b">网信办</td>
+            <td align="left" class="f12b">254</td>
+          </tr>
+	      <tr>
+	        <td align="left" class="f12b">22.196.86.27:8080</td>
+            <td align="left" class="f12b">教育局</td>
+            <td align="left" class="f12b">2444</td>
+          </tr>
+	      <tr>
+	        <td align="left" class="f12b">25.25.125.255</td>
+            <td align="left" class="f12b">审查局</td>
+            <td align="left" class="f12b">56</td>
+          </tr>
+	      <tr>
+	        <td align="left" class="f12b">110.255.1.25</td>
+            <td align="left" class="f12b">出入境局</td>
+            <td align="left" class="f12b">9</td>
+          </tr>
+        </table>      </td>
+    </tr>
+  </table>
+</div>
+<!--底部-->
+<div id="footer">
+
+<div class="b_12">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" id="senfe2">
+    <tr>
+      <td align="left" class="bg_td_t2">事件编号</td>
+        <td align="left" class="bg_td_t2">级别</td>
+        <td align="left" class="bg_td_t2">会话时间</td>
+        <td align="left" class="bg_td_t2">主机名</td>
+        <td align="left" class="bg_td_t2">业务系统</td>
+        <td align="left" class="bg_td_t2">攻击类型</td>
+        <td align="left" class="bg_td_t2">链接地址</td>
+        <td align="left" class="bg_td_t2">源IP</td>
+        <td align="left" class="bg_td_t2">状态</td>
+      </tr>
+    <tr>
+      <td align="left">AV3-gr3Tu_Zpmk2UlDw_ </td>
+        <td align="left"><table border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td width="10" class="bg_gj01"></td>
+              <td width="10" class="bg_gj01"></td>
+              <td width="10" class="bg_01"></td>
+              <td width="10" class="bg_01"></td>
+              <td width="10" class="bg_01"></td>
+            </tr>
+        </table></td>
+        <td align="left">2017-08-20 15:18</td>
+        <td align="left">95.85.124.113:50252</td>
+        <td align="left">192.168.10.202_443</td>
+        <td align="left">WebDAV写文件漏洞</td>
+        <td align="left">http://95.85.124.113/sys/web_session.php?level=3&sid=79459&</td>
+        <td align="left">95.85.124.113</td>
+        <td align="left">416</td>
+      </tr>
+    <tr>
+      <td align="left">AV3-grnpu_Zpmk2UlDw9</td>
+        <td align="left"><table border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td width="10" class="bg_gj01"></td>
+              <td width="10" class="bg_gj02"></td>
+              <td width="10" class="bg_gj03"></td>
+              <td width="10" class="bg_gj04"></td>
+              <td width="10" class="bg_01"></td>
+            </tr>
+        </table></td>
+        <td align="left">2017-08-20 15:18:22</td>
+        <td align="left">95.85.124.113:50245</td>
+        <td align="left">192.168.10.221_80</td>
+        <td align="left">SQL 注入-Union</td>
+        <td align="left">http://95.85.124.113/sys/web_session.php?level=4&sid=87828&logHash=4e723897-419f-42e7-bf52-c715e4422650</td>
+        <td align="left">95.85.124.113</td>
+        <td align="left">405</td>
+      </tr>
+    <tr>
+      <td align="left">AV3-grX9u_Zpmk2UlDw0</td>
+        <td align="left"><table border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td width="10" class="bg_gj01"></td>
+              <td width="10" class="bg_gj02"></td>
+              <td width="10" class="bg_gj03"></td>
+              <td width="10" class="bg_gj04"></td>
+              <td width="10" class="bg_01"></td>
+            </tr>
+        </table></td>
+        <td align="left">2017-08-20 15:18:21</td>
+        <td align="left">95.85.124.113:50379</td>
+        <td align="left">192.168.10.249_8080</td>
+        <td align="left">命令执行-Nginx</td>
+        <td align="left">http://95.85.124.113/sys/web_session.php?level=6&sid=87825&logHash=1119b72d-6f1a-417b-abbb-4bab61c4ed1c</td>
+        <td align="left">95.85.124.113</td>
+        <td align="left">417</td>
+      </tr>
+    <tr>
+      <td align="left">AV3-grISu_Zpmk2UlDww</td>
+        <td align="left"><table border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td width="10" class="bg_gj01"></td>
+              <td width="10" class="bg_gj02"></td>
+              <td width="10" class="bg_gj03"></td>
+              <td width="10" class="bg_gj04"></td>
+              <td width="10" class="bg_01"></td>
+            </tr>
+        </table></td>
+        <td align="left">2017-08-20 15:18:20</td>
+        <td align="left">95.85.124.113:50490</td>
+        <td align="left">192.168.10.232_443</td>
+        <td align="left">WEB后门</td>
+        <td align="left">http://95.85.124.113/sys/web_session.php?level=5&sid=79454&logHash=57ea077a-27c4-4a78-8159-7732d9bc1c9c</td>
+        <td align="left">95.85.124.113</td>
+        <td align="left">412</td>
+      </tr>
+    <tr>
+      <td align="left">AV3-grISu_Zpmk2UlDwu</td>
+        <td align="left"><table border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td width="10" class="bg_gj02"></td>
+              <td width="10" class="bg_gj02"></td>
+              <td width="10" class="bg_gj02"></td>
+              <td width="10" class="bg_01"></td>
+              <td width="10" class="bg_01"></td>
+            </tr>
+        </table></td>
+        <td align="left">2017-08-20 15:18:20</td>
+        <td align="left">95.85.124.113:50311</td>
+        <td align="left">192.168.10.215_80</td>
+        <td align="left">SQL 注入-SQLMap</td>
+        <td align="left">http://95.85.124.113/sys/web_session.php?level=6&sid=87823&logHash=d1e1ac93-01aa-4476-8477-28a964665f5a</td>
+        <td align="left">95.85.124.113</td>
+        <td align="left">505</td>
+      </tr>
+    </table>
+</div>
+<script type="text/javascript">
+  show_anquan_yunshangyewu(); //index.html中的表格
+  setInterval(flowTable,1000,"#senfe2");
+</script>
+  <!--计数器-->
+  <!--<script src='../js/jsq/jquery.js'></script>-->
+  <script src="js/jsq/index.js"></script>
+  <script src="js/jsq/timer.js"></script>
+  <!--计数器结束-->
+</div>
+<!--底部结束-->
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+  <script type="text/javascript" src="js/style.js"></script>      
+</body>
+</html>
